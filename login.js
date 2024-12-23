@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             successMessage.textContent = 'Xác thực thành công!';
             successMessage.style.display = 'block';
             setTimeout(() => {
-                window.location.href = "index.html";
+                window.location.href = "Boxing.html";
             },500);
         } else {
             errorMessage.textContent = 'Họ và tên hoặc mật khẩu không đúng!';

@@ -136,6 +136,7 @@ h1 {
   1.2px -1.2px 0px rgb(253, 253, 253); /* Viền bên phải trên */
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap; 
   color: #1f461a;
   text-align: center;
   z-index: 1000; /* Hiển thị phía trên các phần tử khác */
@@ -152,6 +153,7 @@ h1 {
   border-radius: 8px; /* Bo góc */
   cursor: pointer;
   margin: 20px;
+  margin-bottom: 55px;
   transition: transform 0.5s ease;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
 }
@@ -252,7 +254,7 @@ h1 {
 
 
 .gift-box.open .lid {
-  transform: translateY(-80px) rotateX(45deg);
+  transform: translateY(-50px) rotateX(45deg);
 }
 
 .gift-box.open .content {
@@ -264,7 +266,6 @@ h1 {
   .gift-box {
     width: 120px;
     height: 120px;
-    margin-bottom: 80px;
   }
 
   .gift-box .lid {
