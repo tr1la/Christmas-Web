@@ -240,6 +240,7 @@ h1 {
   background-color: #ffffff;
   color: #333;
   font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   line-height: normal; /* Đặt lại để không ảnh hưởng */
   border-radius: 5px; /* Bo góc */
