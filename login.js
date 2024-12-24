@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!username || !password) {
             errorMessage.textContent = 'Vui lòng nhập đầy đủ họ và tên và mật khẩu!';
             errorMessage.style.display = 'block';
-        } else if (username === 'Trần Thu Hiền' && password === '0801') {
+        } else if (username === 'Trần Phương Linh' && password === '0405') {
             successMessage.textContent = 'Xác thực thành công!';
             successMessage.style.display = 'block';
             setTimeout(() => {
